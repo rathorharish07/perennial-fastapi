@@ -18,5 +18,9 @@ async def startup():
     redis_conn =  redis.from_url(f"redis://{settings.REDIS_HOST}:{settings.REDIS_PORT}", encoding="utf-8", decode_responses=True)
     await FastAPILimiter.init(redis_conn)
 
+@app.get("/health-check")
+def health_check():
+    return {'message': "Health OK"}
+
 # # Registering routes
 app.include_router(main_router)

@@ -9,11 +9,8 @@ COPY requirements.txt .
 RUN pip install --no-cache-dir --upgrade pip \
  && pip install --no-cache-dir -r requirements.txt
 
-# Copy app code and create non-root user to enhace security
+# Copy app code
 COPY . .
-RUN adduser --disabled-password appuser \
- && chown -R appuser:appuser ${APP_HOME}
-USER appuser
 
 EXPOSE 8000
 
