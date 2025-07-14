@@ -3,6 +3,11 @@
 
 Implement search api for the employee search directory.
 
+important points:
+1. Documentation: design and installation document is present there for to dive into more deep: documents/design_and_installtion.md
+2. Documentation: some of the FAQs asked for AI tool and processes is present inside documents/FAQs.text
+3. intial setup, apis, and testcase are defined. please refer setup and installation steps(mentioned below)
+
 **setup and Installation**
 1. Clone the Repository
    ```bash
