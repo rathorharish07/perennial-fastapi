@@ -1,0 +1,11 @@
+
+__pycache__
+*.pyc
+*.pyo
+*.egg-info
+*.git
+.vscode
+test.db
+test_DEV.db
+.env
+
