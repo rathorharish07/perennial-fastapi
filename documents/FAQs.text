@@ -1,0 +1,24 @@
+1. What AI tools (e.g., GitHub Copilot, ChatGPT, Codeium, etc.) your developers use?
+Answer:
+    Here’s an overview of the most popular AI coding tools developers are using today, based on industry surveys, reports, and community feedback:
+    1. GitHub Copilot Widely used: Powers code completion and “AI pair programming” within IDEs like VS Code, JetBrains, and Neovim.
+    2. ChatGPT (and similar LLMs): Conversational assistant: Used by ~83% of AI-tool users for explaining ideas, debugging, and scaffolding code The Wall Street Journal Ideal for high-level logic, not inline suggestions—great for cross-language help and deep explanations.
+    Also there are few others available like gemini, Codeium etc
+
+2. How they assist in coding, debugging, testing, or documentation? 
+Answer:
+    1. Natural Language to Code: You can describe functionality (e.g., “create a function to sort a list”), and Copilot or Codex generates the code snippet instantly.
+    2. Error Detection: AI tools flag syntax and logical errors in real-time, often before running the code
+    3. Automatic Test Generation: AI frameworks like Qodo, Ponicode, and Testim create unit test cases—including edge cases—from existing code 
+    4. Code Explanation: AI tools explain unfamiliar code or legacy snippets in plain language, aiding onboarding and comprehension 
+    5. Refactoring Suggestions: AI proposes improvements for performance, readability, and maintainability—highlighting anti-patterns, dead code, or redundancy .
+
+3. Any best practices your team has adopted around AI?
+Answer:
+    1. Treat AI-generated code like any other: apply linting, formatting, and refactor as needed .
+    2. Integrate AI within IDEs, CI pipelines, or code review tools for seamless adoption
+    3. Automate code reviews on PRs and secure gates via AI without disrupting workflows .
+    4. Document project architecture, patterns, style guides—good docs improve AI utility 
+    5. Enforce data hygiene: restrict AI tool access to non-sensitive code, prohibit PII exposure, and use private/self-hosted models where needed
+    6. Provide training on effective prompting, AI ethics, and reviewing AI-generated code
+    7. Use AI to draft or update docs, but always validate manually 
